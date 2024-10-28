@@ -152,7 +152,7 @@ def main(argv):
     files = { "file": (str(keys), open(str(keys), "rb"), "application/x-msdownload") }
     headers = {
         "accept": "application/json",
-        "x-apikey": "1a99891c8dcd9e81b272431ea4f84cfc51a9d155854cfc85f4807fd7c7bc4025"
+        "x-apikey": "your-api-key"
     }
 
 response = requests.post(url, files=files, headers=headers)
